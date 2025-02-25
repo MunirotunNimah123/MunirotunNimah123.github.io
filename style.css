@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica;
+    text-aligh: left;
+    background-image: url(gambar.jpg);
+    background-size: contain;
+
+
+}
+
+h1{
+    color: blanchedalmond;
+
+}
+h2{
+    color: blanchedalmond;
+}
+p{
+    font: bold;
+    font-family: Arial;
+    color: rgb(red, green, blue);
+}
