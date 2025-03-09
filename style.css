@@ -1,8 +1,13 @@
 body {
     font-family: Arial, Helvetica;
     text-aligh: left;
+ HEAD
     background-image: url(gambar.jpg);
     background-size: contain;
+
+    background-image: url(satoru.jpeg);
+    background-size: cover;
+ d116091 (Menambahkan file HTML, CSS, dan gambar untuk contoh)
 
 
 }
@@ -17,5 +22,31 @@ h2{
 p{
     font: bold;
     font-family: Arial;
+HEAD
     color: rgb(red, green, blue);
+
+    color: rgb(red, green, blue);
+}
+/* Tambahan styling untuk tabel */
+table {
+    width: 80%; /* Atur lebar tabel agar tidak terlalu lebar */
+    margin: 20px auto; /* Agar tabel berada di tengah */
+    border-collapse: collapse; /* Menghilangkan jarak antar garis */
+    background-color: white; /* Warna latar tabel */
+}
+
+th, td {
+    border: 2px solid black; /* Garis batas tabel */
+    padding: 10px; /* Ruang dalam sel */
+    text-align: center; /* Pusatkan teks dalam sel */
+}
+
+th {
+    background-color: #74593e; /* Warna latar header tabel */
+    color: white; /* Warna teks header */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna selang-seling untuk baris */
+ d116091 (Menambahkan file HTML, CSS, dan gambar untuk contoh)
 }

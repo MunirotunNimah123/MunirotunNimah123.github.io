@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+ HEAD
 <html>
 <head>
     <title>BELAJAR HTML</title>
@@ -9,3 +10,46 @@
     <h2>NI'MAH CANTIK</h2>
 </body>
 </html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        <img src="gojo satoru.webp" alt="gojo satoru" width="300">
+        ANGKATAN 23 UHO
+    </h1>
+    <h2>MUNIROTUN NI'MAH</h2>
+
+    <!-- Form untuk menambah data -->
+    <form onsubmit="event.preventDefault(); tambahData();">
+        <input type="text" id="nama" placeholder="Masukkan Nama" required>
+        <input type="text" id="jurusan" placeholder="Masukkan Jurusan" required>
+        <input type="number" id="usia" placeholder="Masukkan Usia" required>
+        <button type="submit">Tambah Data</button>
+    </form>
+
+    <!-- Tabel yang akan diisi secara dinamis -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Jurusan</th>
+                <th>Usia</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="dataMahasiswa">
+            <!-- Data akan ditampilkan di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script> <!-- Hubungkan dengan file JavaScript -->
+</body>
+</html>
+ d116091 (Menambahkan file HTML, CSS, dan gambar untuk contoh)
