@@ -7,7 +7,7 @@ body {
 
     background-image: url(satoru.jpeg);
     background-size: cover;
- d116091 (Menambahkan file HTML, CSS, dan gambar untuk contoh)
+
 
 
 }
@@ -48,5 +48,4 @@ th {
 
 tr:nth-child(even) {
     background-color: #f2f2f2; /* Warna selang-seling untuk baris */
- d116091 (Menambahkan file HTML, CSS, dan gambar untuk contoh)
 }
